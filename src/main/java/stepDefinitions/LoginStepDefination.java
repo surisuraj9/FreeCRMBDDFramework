@@ -29,10 +29,10 @@ public class LoginStepDefination {
 				+ "relationship management, sales, and support.", title);	   
 	}
 
-	@Then("^user enters username and user enters password$")
-	public void user_enters_username_and_user_enters_password(){
-		driver.findElement(By.name("username")).sendKeys("surajp");
-		driver.findElement(By.name("password")).sendKeys("suraj1234");	   
+	@Then("^user enters \"(.*)\" and user enters \"(.*)\"$")
+	public void user_enters_username_and_user_enters_password(String uname,String pass){
+		driver.findElement(By.name("username")).sendKeys(uname);
+		driver.findElement(By.name("password")).sendKeys(pass);	   
 	}
 
 	@Then("^user clicks on login button$")
@@ -48,5 +48,12 @@ public class LoginStepDefination {
 		System.out.println("Home Page tittle is:"+homePageTitle);
 		Assert.assertEquals(homePageTitle, "CRMPRO");
 	}
+
+	@Then("^close the browser$")
+	public void close_the_brwoser(){
+		driver.quit();
+	}
+	
+
 
 }
