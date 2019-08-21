@@ -14,7 +14,7 @@ import junit.framework.Assert;
 public class LoginStepDefination {
 	WebDriver driver;
 	
-	@Given("^user is available on login page$")
+	/*@Given("^user is available on login page$")
 	public void user_is_available_on_login_page(){
 		System.setProperty("webdriver.chrome.driver","src/main/resources/chromedriver.exe");
 		driver  = new ChromeDriver();
@@ -52,7 +52,7 @@ public class LoginStepDefination {
 	@Then("^close the browser$")
 	public void close_the_brwoser(){
 		driver.quit();
-	}
+	}*/
 	
 
 
