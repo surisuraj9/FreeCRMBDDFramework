@@ -1,165 +1,137 @@
 [
   {
-    "line": 1,
+    "line": 2,
     "elements": [
       {
-        "line": 3,
-        "name": "Free CRM Create a new deal scenario",
+        "line": 9,
+        "name": "Login with incorrect username and correct password",
         "description": "",
-        "id": "deal-data-creation;free-crm-create-a-new-deal-scenario",
+        "id": "free-crm-application-testing;login-with-incorrect-username-and-correct-password",
         "type": "scenario",
         "keyword": "Scenario",
         "steps": [
           {
             "result": {
-              "duration": 10755093396,
-              "status": "passed"
-            },
-            "line": 5,
-            "name": "user is available on login page",
-            "match": {
-              "location": "DealStepDefinition.user_is_available_on_login_page()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 6395371,
-              "status": "passed"
-            },
-            "line": 6,
-            "name": "tittle of login page is Free CRM",
-            "match": {
-              "location": "DealStepDefinition.tittle_of_login_page_is_Free_CRM()"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 144360316,
-              "status": "passed"
-            },
-            "line": 7,
-            "name": "user enters username and user enters password",
-            "match": {
-              "location": "DealStepDefinition.user_enters_username_and_user_enters_password(DataTable)"
-            },
-            "rows": [
-              {
-                "cells": [
-                  "surajp",
-                  "suraj1234"
-                ],
-                "line": 8
-              }
-            ],
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 6184081430,
-              "status": "passed"
-            },
-            "line": 9,
-            "name": "user clicks on login button",
-            "match": {
-              "location": "DealStepDefinition.user_clicks_on_login_button()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 5945573,
-              "status": "passed"
+              "status": "undefined"
             },
             "line": 10,
-            "name": "user is on home page",
-            "match": {
-              "location": "DealStepDefinition.user_is_on_home_page()"
-            },
-            "keyword": "Then "
-          },
+            "name": "This is a invalid login test",
+            "match": {},
+            "keyword": "Given "
+          }
+        ],
+        "tags": [
+          {
+            "line": 8,
+            "name": "@RegressionTest"
+          }
+        ]
+      },
+      {
+        "line": 21,
+        "name": "Create a tasks",
+        "description": "",
+        "id": "free-crm-application-testing;create-a-tasks",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
           {
             "result": {
-              "duration": 2727808327,
-              "status": "passed"
+              "status": "undefined"
             },
-            "line": 11,
-            "name": "user moves to new deal page",
-            "match": {
-              "location": "DealStepDefinition.user_moves_to_new_deal_page()"
-            },
-            "keyword": "Then "
-          },
+            "line": 22,
+            "name": "This is a tasks test case",
+            "match": {},
+            "keyword": "Given "
+          }
+        ],
+        "tags": [
+          {
+            "line": 20,
+            "name": "@RegressionTest"
+          }
+        ]
+      },
+      {
+        "line": 65,
+        "name": "validate a report",
+        "description": "",
+        "id": "free-crm-application-testing;validate-a-report",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
           {
             "result": {
-              "duration": 546680149,
-              "status": "passed"
+              "status": "undefined"
             },
-            "line": 12,
-            "name": "user enters deal details",
-            "match": {
-              "location": "DealStepDefinition.user_enters_deal_details(DataTable)"
-            },
-            "rows": [
-              {
-                "cells": [
-                  "title",
-                  "amount",
-                  "probability",
-                  "commission"
-                ],
-                "line": 13
-              },
-              {
-                "cells": [
-                  "test deal1",
-                  "1000",
-                  "50",
-                  "10"
-                ],
-                "line": 14
-              },
-              {
-                "cells": [
-                  "test deal2",
-                  "2000",
-                  "60",
-                  "20"
-                ],
-                "line": 15
-              },
-              {
-                "cells": [
-                  "test deal3",
-                  "3000",
-                  "70",
-                  "30"
-                ],
-                "line": 16
-              }
-            ],
-            "keyword": "Then "
-          },
+            "line": 66,
+            "name": "This is a report test",
+            "match": {},
+            "keyword": "Given "
+          }
+        ],
+        "tags": [
+          {
+            "line": 64,
+            "name": "@End2End"
+          }
+        ]
+      },
+      {
+        "line": 69,
+        "name": "Application Logout",
+        "description": "",
+        "id": "free-crm-application-testing;application-logout",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
           {
             "result": {
-              "duration": 643939047,
-              "status": "passed"
+              "status": "undefined"
             },
-            "line": 17,
-            "name": "close the browser",
-            "match": {
-              "location": "DealStepDefinition.close_the_brwoser()"
+            "line": 70,
+            "name": "This is a logout test",
+            "match": {},
+            "keyword": "Given "
+          }
+        ],
+        "tags": [
+          {
+            "line": 68,
+            "name": "@End2End"
+          }
+        ]
+      },
+      {
+        "line": 72,
+        "name": "browser closed",
+        "description": "",
+        "id": "free-crm-application-testing;browser-closed",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
             },
-            "keyword": "Then "
+            "line": 73,
+            "name": "This is a close broswer test",
+            "match": {},
+            "keyword": "Given "
           }
         ]
       }
     ],
-    "name": "Deal data creation",
+    "name": "Free CRM application testing",
     "description": "",
-    "id": "deal-data-creation",
+    "id": "free-crm-application-testing",
     "keyword": "Feature",
-    "uri": "src/main/java/Features/deals.feature"
+    "uri": "src/main/java/Features/tagging.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@FunctionalTest"
+      }
+    ]
   }
 ]

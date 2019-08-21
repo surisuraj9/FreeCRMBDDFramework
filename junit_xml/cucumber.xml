@@ -1,14 +1,23 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="21.014304">
-<testcase classname="Deal data creation" name="Free CRM Create a new deal scenario" time="21.014304">
-<system-out><![CDATA[Given user is available on login page.......................................passed
-When tittle of login page is Free CRM.......................................passed
-Then user enters username and user enters password..........................passed
-Then user clicks on login button............................................passed
-Then user is on home page...................................................passed
-Then user moves to new deal page............................................passed
-Then user enters deal details...............................................passed
-Then close the browser......................................................passed
-]]></system-out>
+<testsuite failures="5" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="5" time="0">
+<testcase classname="Free CRM application testing" name="Login with incorrect username and correct password" time="0">
+<failure message="The scenario has pending or undefined step(s)"><![CDATA[Given This is a invalid login test..........................................undefined
+]]></failure>
+</testcase>
+<testcase classname="Free CRM application testing" name="Create a tasks" time="0">
+<failure message="The scenario has pending or undefined step(s)"><![CDATA[Given This is a tasks test case.............................................undefined
+]]></failure>
+</testcase>
+<testcase classname="Free CRM application testing" name="validate a report" time="0">
+<failure message="The scenario has pending or undefined step(s)"><![CDATA[Given This is a report test.................................................undefined
+]]></failure>
+</testcase>
+<testcase classname="Free CRM application testing" name="Application Logout" time="0">
+<failure message="The scenario has pending or undefined step(s)"><![CDATA[Given This is a logout test.................................................undefined
+]]></failure>
+</testcase>
+<testcase classname="Free CRM application testing" name="browser closed" time="0">
+<failure message="The scenario has pending or undefined step(s)"><![CDATA[Given This is a close broswer test..........................................undefined
+]]></failure>
 </testcase>
 </testsuite>

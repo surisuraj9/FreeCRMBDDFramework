@@ -84,6 +84,12 @@ public class DealStepDefinition {
 			driver.findElement(By.id("amount")).sendKeys(dealvalues.get("amount"));
 			driver.findElement(By.id("probability")).sendKeys(dealvalues.get("probability"));
 			driver.findElement(By.id("commission")).sendKeys(dealvalues.get("commission"));
+			
+			driver.findElement(By.xpath("//input[@type='submit' and @value='Save']")).click();
+			//move to new deal page:
+			Actions action = new Actions(driver);
+			action.moveToElement(driver.findElement(By.xpath("//a[contains(text(),'Deals')]"))).build().perform();
+			driver.findElement(By.xpath("//a[contains(text(),'New Deal')]")).click();
 		}
 	}
 
